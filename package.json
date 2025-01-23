@@ -1,0 +1,17 @@
+{
+  "name": "bnk-kv-store",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@bnk/router": "1.0.5"
+  }
+}

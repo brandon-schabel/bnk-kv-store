@@ -1,0 +1,17 @@
+{
+  "name": "@bnk/kv-store",
+  "module": "src/index.ts",
+  "main": "src/index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "bun test src/",
+    "test:watch": "bun test --watch src/",
+    "prepublishOnly": "bun test",
+    "publish:kv-store": "bun publish --access public"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.7.2"
+  }
+}
