@@ -1,6 +1,7 @@
 # @bnk/kv-store
 
 A highly modular, zero-dependency, TypeScript-based key-value store for Bun with support for:
+
 - In-memory caching first (always)
 - Optional syncing to various data stores (SQLite, file, etc.)
 - Flexible validators (e.g., Zod, ArkType, or any custom function)
@@ -182,4 +183,4 @@ class FileAdapter implements KeyValueAdapterWithBackup {
 
 ## License
 
-MIT 
+MIT
